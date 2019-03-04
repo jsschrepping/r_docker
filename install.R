@@ -54,7 +54,7 @@ devtools::install_version("DropletUtils", version="1.2.2", repos=c("https://bioc
 devtools::install_version("KEGGgraph", version="1.42.0", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("SingleCellExperiment", version="1.4.1", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("SummarizedExperiment", version="1.12.0", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-devtools::install_version("scRNAseq", version="1.8.0", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("scRNAseq", version="1.8.0", repos=c("https://bioconductor.org/packages/3.8/data/experiment/","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("iSEE", version="1.2.3", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("scater", version="1.10.1", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("monocle", version="2.10.1", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
