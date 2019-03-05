@@ -2,6 +2,9 @@ FROM bioconductor/release_core2:R3.5.2_Bioc3.8
 
 MAINTAINER Jonas Schulte-Schrepping
 
+# This will make apt-get install without question
+ENV DEBIAN_FRONTEND noninteractive
+
 RUN apt-get update && \
     apt-get install -y apt-utils \
     	    	       libudunits2-dev \
