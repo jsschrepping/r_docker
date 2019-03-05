@@ -3,25 +3,28 @@ FROM bioconductor/release_core2:R3.5.2_Bioc3.8
 MAINTAINER Jonas Schulte-Schrepping
 
 RUN apt-get update && \
-    apt-get install -y apt-utils && \
-    apt-get install -y libudunits2-dev && \
-    apt-get install -y libhdf5-dev && \
-    apt-get install -y libgsl-dev
-
-# Anaconda installing
-RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-RUN bash Miniconda3-latest-Linux-x86_64.sh -b
-RUN rm Miniconda3-latest-Linux-x86_64.sh
-
-# Set path to conda
-ENV PATH="/root/miniconda3/bin:$PATH"
-
-# Updating Anaconda packages
-RUN conda update -y conda
-RUN conda update -y --all
+    apt-get install -y apt-utils \
+    	    	       libudunits2-dev \
+		       libhdf5-dev \
+		       libgsl-dev \
+		       libxml2-dev \
+		       zlib1g-dev \
+		       libpng*-dev \
+		       xorg \
+		       libx11-dev \
+		       libglu1-mesa-dev \
+		       libfreetype*-dev \
+		       p7zip \
+		       python3-pip \
+		       libxt-dev \
+		       libgtk2.0-dev \
+		       libcairo2-dev \
+		       xvfb \
+		       xauth \
+		       xfonts-base
 
 # install umap-learn
-RUN conda install -y -c conda-forge umap-learn=0.3.7
+RUN pip install umap-learn==0.3.7
 
 # install cran packages
 ADD install_cran.R /tmp/
