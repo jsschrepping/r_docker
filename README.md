@@ -8,7 +8,6 @@ Installed packages include:
 + tximport
 + limma
 + edgeR
-+ flowUtils, flowCore, flowStats, flowViz
 + DropletUtils
 + scater
 + monocle
