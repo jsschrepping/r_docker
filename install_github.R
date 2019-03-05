@@ -10,5 +10,3 @@ devtools::install_github('dviraran/SingleR')
 ## r-cellassign
 tensorflow::install_tensorflow()
 devtools::install_github("Irrationone/cellassign")
-## MOFA
-devtools::install_github("bioFAM/MOFA")
