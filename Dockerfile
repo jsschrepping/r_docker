@@ -29,6 +29,9 @@ RUN apt-get update && \
 # install umap-learn
 RUN pip install umap-learn==0.3.7
 
+# install virtualenv for tensorflow
+RUN pip install virtualenv
+
 # install cran packages
 ADD install_cran.R /tmp/
 RUN R -f /tmp/install_cran.R
