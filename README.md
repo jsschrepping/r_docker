@@ -19,7 +19,6 @@ Installed packages include:
 + zinbwave
 + Seurat v3
 + SingleR
-+ MOFA
 + r-cellassign
 
 For instructions on how to launch RStudio in docker please read: https://ropenscilabs.github.io/r-docker-tutorial/02-Launching-Docker.html.
