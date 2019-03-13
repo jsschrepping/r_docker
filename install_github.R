@@ -3,8 +3,6 @@ library(pkgbuild)
 library(tensorflow)
 
 # Github packages
-##Seurat
-devtools::install_github(repo = 'satijalab/seurat', ref= 'release/3.0')
 ## SingleR
 devtools::install_github('dviraran/SingleR')
 ## r-cellassign
