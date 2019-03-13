@@ -20,4 +20,4 @@ devtools::install_version("data.table", version = "1.12.0", repos = "http://cran
 devtools::install_version("scales", version = "1.0.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("tensorflow", version = "1.10", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("dplyr", version = "0.8.0.1", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
-devtools::install_version("seurat", version = "2.3.4", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("Seurat", version = "2.3.4", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
