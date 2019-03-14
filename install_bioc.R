@@ -34,6 +34,6 @@ devtools::install_version("iSEE", version="1.2.3", repos=c("https://bioconductor
 devtools::install_version("scater", version="1.10.1", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("monocle", version="2.10.1", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("scran", version="1.10.2", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-devtools::install_version("zinbwave", version="1.4.1", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("zinbwave", version="1.4.2", repos=c("https://bioconductor.org/packages/3.8/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("org.Mm.eg.db", version="3.7.0", repos="https://bioconductor.org/packages/3.8/data/annotation",upgrade = "never", force = TRUE)
 devtools::install_version("org.Hs.eg.db", version="3.7.0", repos="https://bioconductor.org/packages/3.8/data/annotation",upgrade = "never", force = TRUE)

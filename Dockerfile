@@ -29,6 +29,9 @@ RUN apt-get update && \
 # install umap-learn
 RUN pip install umap-learn==0.3.7
 
+# install leidenalg
+RUN pip install leidenalg==0.7.0
+
 # install virtualenv for tensorflow
 RUN pip install virtualenv
 
