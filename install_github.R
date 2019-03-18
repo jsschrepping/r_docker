@@ -3,6 +3,8 @@ library(pkgbuild)
 library(tensorflow)
 
 # Github packages
+## install ggrastr
+devtools::install_github('VPetukhov/ggrastr')
 ##Seurat
 devtools::install_github(repo = 'satijalab/seurat', ref= 'release/3.0')
 ## SingleR
