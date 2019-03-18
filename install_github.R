@@ -3,6 +3,8 @@ library(pkgbuild)
 library(tensorflow)
 
 # Github packages
+## install ggrastr
+devtools::install_github('VPetukhov/ggrastr')
 ## SingleR
 devtools::install_github('dviraran/SingleR')
 ## r-cellassign
