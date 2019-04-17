@@ -26,3 +26,4 @@ devtools::install_version("useful", version = "1.2.6", repos = "http://cran.us.r
 devtools::install_version("Rmisc", version = "1.5", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("pals", version = "1.5", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("yarrr", version = "0.1.5", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("Seurat", version = "3.0.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
