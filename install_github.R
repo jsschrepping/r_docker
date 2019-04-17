@@ -11,4 +11,4 @@ devtools::install_github('dviraran/SingleR')
 tensorflow::install_tensorflow()
 devtools::install_github("Irrationone/cellassign")
 ## scTransform
-devtools::install_github('ChristophH/sctransform', ref="v0.0.2")
+devtools::install_github('ChristophH/sctransform', ref="v0.2.0")
