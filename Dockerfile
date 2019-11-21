@@ -1,4 +1,4 @@
-FROM bioconductor/release_core2:R3.5.3_Bioc3.8
+FROM bioconductor/release_core2:R3.6.1_Bioc3.10
 
 MAINTAINER Jonas Schulte-Schrepping
 
@@ -27,10 +27,13 @@ RUN apt-get update && \
 		       xfonts-base
 
 # install umap-learn
-RUN pip install umap-learn==0.3.7
+RUN pip install umap-learn==0.3.10
 
 # install leidenalg
 RUN pip install leidenalg==0.7.0
+
+# install cellphonedb
+RUN pip3 install cellphonedb==2.1.1
 
 # install virtualenv for tensorflow
 RUN pip install virtualenv
