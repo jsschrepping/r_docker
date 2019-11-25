@@ -9,6 +9,10 @@ RUN apt-get update && \
     apt-get install -y apt-utils \
     	    	       libudunits2-dev \
 		       libhdf5-dev \
+		       libgdal-dev \
+		       gdal-bin \
+		       proj-bin \
+		       libproj-dev \
 		       libgsl-dev \
 		       libxml2-dev \
 		       zlib1g-dev \
@@ -34,6 +38,9 @@ RUN apt-get update && \
 		       xauth \
 		       xfonts-base
 
+# install wheel
+RUN pip install wheel
+
 # install umap-learn
 RUN pip install umap-learn==0.3.10
 
@@ -42,9 +49,6 @@ RUN pip install leidenalg==0.7.0
 
 # install cellphonedb
 RUN pip3 install cellphonedb==2.1.1
-
-# install virtualenv for tensorflow
-RUN pip install virtualenv
 
 # install cran packages
 ADD install_cran.R /tmp/
