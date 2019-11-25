@@ -37,7 +37,7 @@ devtools::install_version("scater", version="1.14.4", repos=c("https://bioconduc
 devtools::install_version("monocle", version="2.14.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("scran", version="1.14.5", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("zinbwave", version="1.8.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-devtools::install_version("SCnorm", version="1.8.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("SCnorm", version="1.8.2", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("MAST", version="1.12.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("BASiCS", version="1.8.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("slingshot", version="1.4.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
