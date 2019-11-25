@@ -15,7 +15,7 @@ devtools::install_version("singscore", version="1.6.0", repos=c("https://biocond
 devtools::install_version("clusterProfiler", version="3.14.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("DOSE", version="3.12.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("ComplexHeatmap", version="2.2.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-devtools::install_version("tximport", version="1.14.1", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-praoject.org"),upgrade = "never", force = TRUE)
+devtools::install_version("tximport", version="1.14.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-praoject.org"),upgrade = "never", force = TRUE)
 devtools::install_version("DESeq2", version="1.26.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("vsn", version="3.54.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("genefilter", version="1.68.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
