@@ -18,6 +18,14 @@ RUN apt-get update && \
 		       libglu1-mesa-dev \
 		       libfreetype*-dev \
 		       p7zip \
+		       build-essential \
+		       libssl-dev \
+		       libffi-dev \
+		       libxml2-dev \
+		       libxslt1-dev \
+		       python3 \
+		       python-dev \
+		       python3-dev \
 		       python3-pip \
 		       libxt-dev \
 		       libgtk2.0-dev \
