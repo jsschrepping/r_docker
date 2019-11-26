@@ -7,9 +7,6 @@ library(tensorflow)
 devtools::install_github('VPetukhov/ggrastr')
 ## SingleR
 devtools::install_github('LTLA/SingleR')
-## r-cellassign
-tensorflow::install_tensorflow()
-devtools::install_github("Irrationone/cellassign")
 ## scTransform
 devtools::install_github('ChristophH/sctransform', ref="v0.2.0")
 ##nichenetr
