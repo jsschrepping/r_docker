@@ -51,3 +51,6 @@ devtools::install_version("TxDb.Mmusculus.UCSC.mm10.knownGene", version="3.10.0"
 devtools::install_version("TxDb.Hsapiens.UCSC.hg38.knownGene", version="3.10.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
 devtools::install_version("org.Mm.eg.db", version="3.10.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
 devtools::install_version("org.Hs.eg.db", version="3.10.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
+devtools::install_version("DifBind", version="2.14.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
+devtools::install_version("chromVAR", version="1.8.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
+devtools::install_version("motifmatchr", version="1.8.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)

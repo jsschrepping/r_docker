@@ -24,3 +24,5 @@ devtools::install_github('cole-trapnell-lab/leidenbase')
 devtools::install_github('cole-trapnell-lab/monocle3')
 ## harmony
 devtools::install_github("immunogenomics/harmony")
+## signac
+devtools::install_github("timoast/signac")
