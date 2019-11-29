@@ -5,6 +5,8 @@ library(devtools)
 library(pkgbuild)
 
 devtools::install_version("tidyverse", version = "1.3.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("future", version = "1.12.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("future.apply", version = "1.2.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("RColorBrewer", version = "1.1-2", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("pheatmap", version = "1.0.12", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("ggrepel", version = "0.8.1", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
