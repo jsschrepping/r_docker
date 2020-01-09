@@ -32,3 +32,7 @@ devtools::install_version("amap", version = "0.8-17", repos = "http://cran.us.r-
 devtools::install_version("pals", version = "1.5", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("yarrr", version = "0.1.5", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("Seurat", version = "3.1.1", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("liger", version = "1.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("amap", version = "0.8-18", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("umap", version = "0.2.4.1", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("fastcluster", version = "1.1.25", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)

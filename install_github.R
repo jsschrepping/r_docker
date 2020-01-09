@@ -24,3 +24,9 @@ devtools::install_github('cole-trapnell-lab/monocle3')
 devtools::install_github("immunogenomics/harmony")
 ## signac
 devtools::install_github("timoast/signac")
+## race-id/stem-id
+devtools::install_github("dgrun/RaceID3_StemID2_package")
+## fate-id
+devtools::install_github("dgrun/FateID")
+## cistopic
+devtools::install_github("aertslab/cisTopic")
