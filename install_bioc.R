@@ -55,6 +55,6 @@ devtools::install_version("org.Hs.eg.db", version="3.10.0", repos="https://bioco
 devtools::install_version("DiffBind", version="2.14.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
 devtools::install_version("chromVAR", version="1.8.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
 devtools::install_version("motifmatchr", version="1.8.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
-devtools::install_version("SingleR", version="1.0.4", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
+devtools::install_version("SingleR", version="1.0.5", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
 devtools::install_version("Rsubread", version="2.0.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
 devtools::install_version("rGREAT", version="1.18.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
