@@ -1,4 +1,4 @@
-FROM bioconductor/release_core2:R3.6.1_Bioc3.10
+FROM bioconductor/release_core2:R3.6.2_Bioc3.10
 
 MAINTAINER Jonas Schulte-Schrepping
 
