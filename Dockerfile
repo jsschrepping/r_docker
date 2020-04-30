@@ -17,6 +17,7 @@ RUN apt-get update && \
 		       libxml2-dev \
 		       zlib1g-dev \
 		       libpng*-dev \
+		       libglpk-dev \
 		       xorg \
 		       libx11-dev \
 		       libglu1-mesa-dev \
@@ -42,13 +43,13 @@ RUN apt-get update && \
 RUN pip install wheel
 
 # install umap-learn
-RUN pip install umap-learn==0.3.10
+RUN pip install umap-learn==0.4.2
 
 # install leidenalg
-RUN pip install leidenalg==0.7.0
+RUN pip install leidenalg==0.8.0
 
 # install cellphonedb
-RUN pip3 install cellphonedb==2.1.1
+RUN pip3 install cellphonedb==2.1.2
 
 # install cran packages
 ADD install_cran.R /tmp/
