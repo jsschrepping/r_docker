@@ -4,11 +4,11 @@ library(pkgbuild)
 # Bioconductor packages
 
 BiocManager::install("rhdf5",update=FALSE,ask=FALSE)
+devtools::install_version("S4Vectors", version="0.24.4", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("BiocGenerics", version="0.32.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("DelayedArray", version="0.12.3", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("DelayedMatrixStats", version="1.8.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("ggbio", version="1.34.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-devtools::install_version("S4Vectors", version="0.24.4", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("batchelor", version="1.2.4", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("GSVA", version="1.34.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("GSEABase", version="1.48.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
@@ -56,6 +56,7 @@ devtools::install_version("SingleR", version="1.0.6", repos=c("https://bioconduc
 devtools::install_version("Rsubread", version="2.0.1", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"), upgrade = "never", force = TRUE)
 devtools::install_version("rGREAT", version="1.18.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"), upgrade = "never", force = TRUE)
 devtools::install_version("multtest", version="2.42.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("variancePartition", version="1.16.1", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-praoject.org"),upgrade = "never", force = TRUE
 devtools::install_version("muscat", version="1.0.1", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-praoject.org"),upgrade = "never", force = TRUE)
 devtools::install_version("reactome.db", version="2.42.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 # install data bases

@@ -33,6 +33,6 @@ devtools::install_version("Signac", version = "0.2.5", repos = "http://cran.us.r
 devtools::install_version("amap", version = "0.8-18", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("umap", version = "0.2.5.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("fastcluster", version = "1.1.25", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
-devtools::install_version("mcda", version = "0.0.20", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("MCDA", version = "0.0.20", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("qlcMatrix", version = "0.9.7", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("hdf5r", version = "1.3.2", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)

@@ -14,8 +14,15 @@ RUN apt-get update && \
 		       proj-bin \
 		       libproj-dev \
 		       libgsl-dev \
+		       libxml2 \
 		       libxml2-dev \
+		       libigraph0-dev \
 		       zlib1g-dev \
+		       libtool \
+		       bison \
+		       flex \
+		       automake \
+		       autoconf \
 		       libpng*-dev \
 		       libglpk-dev \
 		       xorg \
@@ -26,7 +33,6 @@ RUN apt-get update && \
 		       build-essential \
 		       libssl-dev \
 		       libffi-dev \
-		       libxml2-dev \
 		       libxslt1-dev \
 		       python3 \
 		       python-dev \
@@ -39,14 +45,20 @@ RUN apt-get update && \
 		       xauth \
 		       xfonts-base
 
+# update pip
+RUN pip install --upgrade pip
+RUN pip3 install --upgrade pip
+
 # install wheel
 RUN pip install wheel
 
 # install umap-learn
-RUN pip install umap-learn==0.4.2
+RUN pip3 install numpy==1.18.3
+RUN pip3 install umap-learn==0.4.2
 
 # install leidenalg
-RUN pip install leidenalg==0.8.0
+RUN pip3 install python-igraph==0.8.2
+RUN pip3 install leidenalg==0.8.0
 
 # install cellphonedb
 RUN pip3 install cellphonedb==2.1.2
