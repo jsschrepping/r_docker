@@ -25,6 +25,7 @@ devtools::install_version("biomaRt", version="2.42.1", repos=c("https://biocondu
 devtools::install_version("limma", version="3.42.2", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("edgeR", version="3.28.1", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("sva", version="3.34.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("lpsymphony", version="1.14.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("IHW", version="1.14.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("ChIPseeker", version="1.22.1", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("ballgown", version="2.18.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
@@ -56,13 +57,3 @@ devtools::install_version("SingleR", version="1.0.6", repos=c("https://bioconduc
 devtools::install_version("Rsubread", version="2.0.1", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"), upgrade = "never", force = TRUE)
 devtools::install_version("rGREAT", version="1.18.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"), upgrade = "never", force = TRUE)
 devtools::install_version("multtest", version="2.42.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-devtools::install_version("variancePartition", version="1.16.1", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-praoject.org"),upgrade = "never", force = TRUE
-devtools::install_version("muscat", version="1.0.1", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-praoject.org"),upgrade = "never", force = TRUE)
-devtools::install_version("reactome.db", version="2.42.0", repos=c("https://bioconductor.org/packages/3.10/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-# install data bases
-devtools::install_version("TxDb.Mmusculus.UCSC.mm10.knownGene", version="3.10.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
-devtools::install_version("TxDb.Hsapiens.UCSC.hg38.knownGene", version="3.10.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
-devtools::install_version("org.Mm.eg.db", version="3.10.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
-devtools::install_version("org.Hs.eg.db", version="3.10.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
-devtools::install_version("EnsDb.Mmusculus.v79", version="2.99.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)
-devtools::install_version("EnsDb.Hsapiens.v86", version="2.99.0", repos="https://bioconductor.org/packages/3.10/data/annotation",upgrade = "never", force = TRUE)

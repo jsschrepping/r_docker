@@ -71,6 +71,11 @@ RUN R -f /tmp/install_cran.R
 ADD install_bioc.R /tmp/
 RUN R -f /tmp/install_bioc.R
 
+# install bioc data bases
+ADD install_biodb.R /tmp/
+RUN R -f /tmp/install_biodb.R
+
 # install github packages
 ADD install_github.R /tmp/
 RUN R -f /tmp/install_github.R
+
