@@ -15,12 +15,6 @@ devtools::install_github('cole-trapnell-lab/leidenbase')
 devtools::install_github('cole-trapnell-lab/monocle3')
 ## harmony
 devtools::install_github("immunogenomics/harmony")
-## liger (macosko)
-devtools::install_github("MacoskoLab/liger")
-## race-id/stem-id
-devtools::install_github("dgrun/RaceID3_StemID2_package")
-## fate-id
-devtools::install_github("dgrun/FateID")
 ## cistopic
 devtools::install_github("aertslab/cisTopic")
 ## Cicero

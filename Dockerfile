@@ -60,8 +60,8 @@ RUN pip3 install umap-learn==0.4.2
 RUN pip3 install python-igraph==0.8.2
 RUN pip3 install leidenalg==0.8.0
 
-# install cellphonedb
-RUN pip3 install cellphonedb==2.1.2
+# install MACS2
+RUN pip install MACS2
 
 # install cran packages
 ADD install_cran.R /tmp/

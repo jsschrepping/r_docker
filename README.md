@@ -1,25 +1,16 @@
 # r_docker
-R studio docker container for genomics analyses in R based on bioconductor/release_core2.
+R studio docker container for scEpigenomics analyses in R based on bioconductor/release_core2.
 
 Installed packages include:
 
-+ DESeq2
-+ tximport
-+ limma
-+ clusterProfiler
-+ edgeR
-+ DropletUtils
-+ scater
-+ monocle
-+ SingleCellExperiment
-+ iSEE
-+ scater
-+ scran
-+ zinbwave
-+ Seurat v3
++ DiffBind
++ ChipSeeker
++ Seurat
 + Signac
+* ChromVar
++ Cicero (Monocle3)
 + ArchR
-+ SingleR
++ clusterProfiler
 
 and many more...
 

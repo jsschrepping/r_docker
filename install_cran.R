@@ -22,7 +22,6 @@ devtools::install_version("hexbin", version = "1.28.1", repos = "http://cran.us.
 devtools::install_version("openxlsx", version = "4.1.4", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("data.table", version = "1.12.8", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("scales", version = "1.1.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
-devtools::install_version("tensorflow", version = "2.0.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("Matrix.utils", version = "0.9.8", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("R.utils", version = "2.9.2", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("useful", version = "1.2.6", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
