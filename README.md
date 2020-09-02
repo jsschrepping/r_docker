@@ -1,13 +1,13 @@
 # r_docker
-R studio docker container for genomics analyses in R based on bioconductor/release_core2.
+R studio docker container for genomics analyses in R v4.0.0 based on bioconductor_docker:RELEASE_3_11.
 
 Installed packages include:
 
-+ clusterProfiler
 + DESeq2
 + tximport
 + limma
 + edgeR
++ clusterProfiler
 + DropletUtils
 + scater
 + monocle
@@ -18,6 +18,8 @@ Installed packages include:
 + zinbwave
 + Seurat v3
 + SingleR
-+ r-cellassign
++ Signac
+
+and many many more.
 
 For instructions on how to launch RStudio in docker please read: https://ropenscilabs.github.io/r-docker-tutorial/02-Launching-Docker.html.

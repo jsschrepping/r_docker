@@ -1,4 +1,4 @@
-FROM bioconductor/release_core2:R3.6.2_Bioc3.10
+FROM bioconductor/bioconductor_docker:RELEASE_3_11
 
 MAINTAINER Jonas Schulte-Schrepping
 
@@ -42,13 +42,23 @@ RUN apt-get update && \
 RUN pip install wheel
 
 # install umap-learn
-RUN pip install umap-learn==0.3.10
+RUN pip install umap-learn==0.4.6
 
 # install leidenalg
-RUN pip install leidenalg==0.7.0
+RUN pip install leidenalg==0.8.1
 
 # install cellphonedb
-RUN pip3 install cellphonedb==2.1.1
+RUN pip3 install cellphonedb==2.1.4
+
+# install scvelo
+RUN pip install scvelo==0.2.2
+
+# install anndata
+RUN pip install anndata==0.6.19 # version is based on the requirements of sceasy
+
+# install loompy
+RUN pip install loompy==2.0.17 # version is based on the requirements of sceasy
+
 
 # install cran packages
 ADD install_cran.R /tmp/
