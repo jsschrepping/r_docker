@@ -72,6 +72,8 @@ RUN pip install anndata==0.6.19 # version is based on the requirements of sceasy
 # install loompy
 RUN pip install loompy==2.0.17 # version is based on the requirements of sceasy
 
+# install scrublet
+RUN pip install scrublet==0.2.1
 
 # install cran packages
 ADD install_cran.R /tmp/
