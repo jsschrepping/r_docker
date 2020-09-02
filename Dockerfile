@@ -14,9 +14,17 @@ RUN apt-get update && \
 		       proj-bin \
 		       libproj-dev \
 		       libgsl-dev \
+		       libxml2 \
 		       libxml2-dev \
+		       libigraph0-dev \
 		       zlib1g-dev \
+		       libtool \
+		       bison \
+		       flex \
+		       automake \
+		       autoconf \
 		       libpng*-dev \
+		       libglpk-dev \
 		       xorg \
 		       libx11-dev \
 		       libglu1-mesa-dev \
@@ -25,7 +33,6 @@ RUN apt-get update && \
 		       build-essential \
 		       libssl-dev \
 		       libffi-dev \
-		       libxml2-dev \
 		       libxslt1-dev \
 		       python3 \
 		       python-dev \
@@ -38,14 +45,20 @@ RUN apt-get update && \
 		       xauth \
 		       xfonts-base
 
+# update pip
+RUN pip install --upgrade pip
+RUN pip3 install --upgrade pip
+
 # install wheel
 RUN pip install wheel
 
 # install umap-learn
+RUN pip3 install numpy==1.19.1
 RUN pip install umap-learn==0.4.6
 
 # install leidenalg
-RUN pip install leidenalg==0.8.1
+RUN pip3 install python-igraph==0.8.2
+RUN pip3 install leidenalg==0.8.1
 
 # install cellphonedb
 RUN pip3 install cellphonedb==2.1.4
@@ -67,6 +80,10 @@ RUN R -f /tmp/install_cran.R
 # install bioc packages
 ADD install_bioc.R /tmp/
 RUN R -f /tmp/install_bioc.R
+
+# install bioc data bases
+ADD install_biodb.R /tmp/
+RUN R -f /tmp/install_biodb.R
 
 # install github packages
 ADD install_github.R /tmp/

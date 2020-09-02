@@ -47,11 +47,6 @@ devtools::install_version("EnrichmentBrowser", version="2.18.0", repos=c("https:
 devtools::install_version("AUCell", version="1.10.0", repos=c("https://bioconductor.org/packages/3.11/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("LoomExperiment", version="1.6.0", repos=c("https://bioconductor.org/packages/3.11/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 
-devtools::install_version("TxDb.Mmusculus.UCSC.mm10.knownGene", version="3.10.0", repos="https://bioconductor.org/packages/3.11/data/annotation",upgrade = "never", force = TRUE)
-devtools::install_version("TxDb.Hsapiens.UCSC.hg38.knownGene", version="3.10.0", repos="https://bioconductor.org/packages/3.11/data/annotation",upgrade = "never", force = TRUE)
-devtools::install_version("org.Mm.eg.db", version="3.10.0", repos="https://bioconductor.org/packages/3.11/data/annotation",upgrade = "never", force = TRUE)
-devtools::install_version("org.Hs.eg.db", version="3.10.0", repos="https://bioconductor.org/packages/3.11/data/annotation",upgrade = "never", force = TRUE)
-
 devtools::install_version("DiffBind", version="2.16.0", repos=c("https://bioconductor.org/packages/3.11/bioc","http://cran.us.r-project.org"), upgrade = "never", force = TRUE)
 devtools::install_version("chromVAR", version="1.10.0", repos=c("https://bioconductor.org/packages/3.11/bioc","http://cran.us.r-project.org"), upgrade = "never", force = TRUE)
 devtools::install_version("motifmatchr", version="1.10.0", repos=c("https://bioconductor.org/packages/3.11/bioc","http://cran.us.r-project.org"), upgrade = "never", force = TRUE)
