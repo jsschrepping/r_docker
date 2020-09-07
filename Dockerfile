@@ -63,14 +63,11 @@ RUN pip3 install leidenalg==0.8.1
 # install cellphonedb
 RUN pip3 install cellphonedb==2.1.4
 
+# install scanpy
+RUN pip install scanpy
+
 # install scvelo
 RUN pip install scvelo==0.2.2
-
-# install anndata
-RUN pip install anndata==0.6.19 # version is based on the requirements of sceasy
-
-# install loompy
-RUN pip install loompy==2.0.17 # version is based on the requirements of sceasy
 
 # install scrublet
 RUN pip install scrublet==0.2.1
