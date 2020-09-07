@@ -28,7 +28,5 @@ devtools::install_github("timoast/signac", ref="1.0.0")
 devtools::install_github("dgrun/RaceID3_StemID2_package")
 ## fate-id
 devtools::install_github("dgrun/FateID")
-## cistopic
-devtools::install_github("aertslab/cisTopic")
 ## sceasy
 devtools::install_github("cellgeni/sceasy")
