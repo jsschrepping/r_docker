@@ -6,7 +6,7 @@ library(tensorflow)
 ## install ggrastr
 devtools::install_github('VPetukhov/ggrastr')
 ## scTransform
-devtools::install_github('ChristophH/sctransform', ref="v0.2.1")
+devtools::install_github('ChristophH/sctransform', ref="v0.3.2")
 ##nichenetr
 devtools::install_github("saeyslab/nichenetr")
 ##doubletfinder
@@ -23,7 +23,7 @@ devtools::install_github('cole-trapnell-lab/monocle3')
 ## harmony
 devtools::install_github("immunogenomics/harmony")
 ## signac
-devtools::install_github("timoast/signac", ref="1.0.0")
+devtools::install_github("timoast/signac", ref="1.1.0")
 ## race-id/stem-id
 devtools::install_github("dgrun/RaceID3_StemID2_package")
 ## fate-id
