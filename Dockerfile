@@ -1,4 +1,4 @@
-FROM bioconductor/bioconductor_docker:RELEASE_3_11
+FROM bioconductor/bioconductor_docker:RELEASE_3_12
 
 MAINTAINER Jonas Schulte-Schrepping
 
@@ -53,18 +53,18 @@ RUN pip3 install --upgrade pip
 RUN pip install wheel
 
 # install umap-learn
-RUN pip3 install numpy==1.19.1
+RUN pip3 install numpy==1.19.4
 RUN pip install umap-learn==0.4.6
 
 # install leidenalg
-RUN pip3 install python-igraph==0.8.2
-RUN pip3 install leidenalg==0.8.1
+RUN pip3 install python-igraph==0.8.3
+RUN pip3 install leidenalg==0.8.3
 
 # install cellphonedb
 RUN pip3 install cellphonedb==2.1.4
 
 # install scanpy
-RUN pip install scanpy
+RUN pip install scanpy==1.6.0
 
 # install scvelo
 RUN pip install scvelo==0.2.2
