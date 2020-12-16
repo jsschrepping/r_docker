@@ -1,5 +1,5 @@
 # r_docker
-R studio docker container for genomics analyses in R v4.0.0 based on bioconductor_docker:RELEASE_3_11.
+R studio docker container for genomics analyses in R v4.0.3 based on bioconductor_docker:RELEASE_3_12.
 
 Installed packages include:
 
