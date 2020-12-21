@@ -39,3 +39,4 @@ devtools::install_version("amap", version = "0.8-18", repos = "http://cran.us.r-
 devtools::install_version("umap", version = "0.2.7.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("fastcluster", version = "1.1.25", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("SoupX", version = "1.4.8", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("stringdist", version = "0.9.6.3", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
