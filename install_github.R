@@ -30,3 +30,7 @@ devtools::install_github("dgrun/RaceID3_StemID2_package")
 devtools::install_github("dgrun/FateID")
 ## sceasy
 devtools::install_github("cellgeni/sceasy")
+## seurat v4
+devtools::install_github("satijalab/seurat", ref = "release/4.0.0")
+devtools::install_github("jlmelville/uwot")
+devtools::install_github("mojaveazure/seurat-disk")
