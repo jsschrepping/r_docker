@@ -20,7 +20,7 @@ devtools::install_version("vsn", version="3.58.0", repos=c("https://bioconductor
 devtools::install_version("genefilter", version="1.72.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("biomaRt", version="2.46.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("limma", version="3.46.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-devtools::install_version("edgeR", version="3.32.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("edgeR", version="3.32.1", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("sva", version="3.38.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("IHW", version="1.18.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("apeglm", version="1.12.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
@@ -46,3 +46,4 @@ devtools::install_version("SingleR", version="1.4.0", repos=c("https://bioconduc
 devtools::install_version("Rsubread", version="2.4.2", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"), upgrade = "never", force = TRUE)
 devtools::install_version("rGREAT", version="1.22.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"), upgrade = "never", force = TRUE)
 devtools::install_version("multtest", version="2.46.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("batchelor", version="1.6.2", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
