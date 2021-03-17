@@ -56,37 +56,36 @@ RUN apt-get update && \
 		       libpq-dev 
 		       
 # update pip
-#RUN pip install --upgrade pip
 RUN pip3 install --upgrade pip
 
 # install pandas
-RUN pip3 install pandas==0.23.4
+RUN pip3 install pandas==1.2.3
 
 # install cython
-RUN pip3 install Cython==0.29.21
+RUN pip3 install Cython==0.29.22
 
 # install wheel
 RUN pip3 install wheel==0.36.2
 
 # install umap-learn
-RUN pip3 install numpy==1.19.4
-RUN pip3 install umap-learn==0.4.6
+RUN pip3 install numpy==1.20.1
+RUN pip3 install umap-learn==0.5.1
 
 # install leidenalg
-RUN pip3 install python-igraph==0.8.3
+RUN pip3 install python-igraph==0.9.0
 RUN pip3 install leidenalg==0.8.3
 
 # install cellphonedb
-RUN pip3 install cellphonedb==2.1.4
+RUN pip3 install cellphonedb==2.1.7
 
 # install scanpy
-RUN pip3 install scanpy==1.6.0
+RUN pip3 install scanpy==1.7.1
 
 # install scvelo
-RUN pip3 install scvelo==0.2.2
+RUN pip3 install scvelo==0.2.3
 
 # install scrublet
-RUN pip3 install scrublet==0.2.1
+RUN pip3 install scrublet==0.2.3
 
 # install cran packages
 ADD install_cran.R /tmp/

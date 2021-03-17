@@ -16,9 +16,10 @@ Installed packages include:
 + scater
 + scran
 + zinbwave
-+ Seurat v3
++ Seurat v4
 + SingleR
 + Signac
++ harmony
 
 and many many more.
 
