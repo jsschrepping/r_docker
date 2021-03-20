@@ -33,7 +33,7 @@ devtools::install_version("useful", version = "1.2.6", repos = "http://cran.us.r
 devtools::install_version("Rmisc", version = "1.5", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("corrplot", version = "0.84", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("UpSetR", version = "1.4.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
-devtools::install_version("Seurat", version = "4.0.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("Seurat", version = "4.0.1", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("liger", version = "2.0.1", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("amap", version = "0.8-18", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("umap", version = "0.2.7.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
@@ -41,3 +41,4 @@ devtools::install_version("fastcluster", version = "1.1.25", repos = "http://cra
 devtools::install_version("SoupX", version = "1.5.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("stringdist", version = "0.9.6.3", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("aplot", version = "0.0.6", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("alluvial", version = "0.1-2", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)

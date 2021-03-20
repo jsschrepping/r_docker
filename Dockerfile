@@ -48,7 +48,6 @@ RUN apt-get update && \
 		       xfonts-base \
 		       python-opengl \
 		       python-pyrex \
-		       idle-python2.7 \
 		       libgle3 \
 		       libxslt1-dev \
 		       libldap2-dev \

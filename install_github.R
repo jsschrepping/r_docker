@@ -23,3 +23,6 @@ devtools::install_github("cellgeni/sceasy")
 ## seurat extra
 devtools::install_github("jlmelville/uwot")
 devtools::install_github("mojaveazure/seurat-disk")
+## compass
+devtools::install_github("YosefLab/VISION")
+devtools::install_github("YosefLab/compassR")
