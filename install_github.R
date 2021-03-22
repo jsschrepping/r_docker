@@ -1,6 +1,5 @@
 library(devtools)
 library(pkgbuild)
-library(tensorflow)
 
 # Github packages
 ##seurat-wrappers
