@@ -17,6 +17,7 @@ Installed packages include:
 + scran
 + zinbwave
 + Seurat v4
++ SeuratDisc
 + SingleR
 + Signac
 + harmony
