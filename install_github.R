@@ -18,6 +18,8 @@ devtools::install_github('cole-trapnell-lab/leidenbase')
 devtools::install_github('cole-trapnell-lab/monocle3')
 ## harmony
 devtools::install_github("immunogenomics/harmony")
+## scPred
+devtools::install_github("powellgenomicslab/scPred")
 ## sceasy
 devtools::install_github("cellgeni/sceasy")
 ## seurat extra
