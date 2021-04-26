@@ -49,3 +49,4 @@ devtools::install_version("rGREAT", version="1.22.0", repos=c("https://bioconduc
 devtools::install_version("multtest", version="2.46.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("batchelor", version="1.6.3", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("ggtree", version="2.4.1", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("RcisTarget", version="1.10.0", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
