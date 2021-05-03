@@ -100,4 +100,6 @@ RUN R -f /tmp/install_biodb.R
 
 # install github packages
 ADD install_github.R /tmp/
+ADD install_github_2.R /tmp/
 RUN R -f /tmp/install_github.R
+RUN R -f /tmp/install_github_2.R

@@ -42,3 +42,6 @@ devtools::install_version("SoupX", version = "1.5.0", repos = "http://cran.us.r-
 devtools::install_version("stringdist", version = "0.9.6.3", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("aplot", version = "0.0.6", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
 devtools::install_version("alluvial", version = "0.1-2", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("dunn.test", version = "1.3.5", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("circlize", version = "0.4.12", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
+devtools::install_version("viridis", version = "0.6.0", repos = "http://cran.us.r-project.org",upgrade = "never", force = TRUE)
