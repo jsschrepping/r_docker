@@ -5,8 +5,31 @@ MAINTAINER Jonas Schulte-Schrepping
 # This will make apt-get install without question
 ENV DEBIAN_FRONTEND noninteractive
 
-# install MACS2
-RUN pip install MACS2
+RUN apt-get update && \
+    apt-get install -y apt-utils \
+    	    	       python3.8 \
+    		       python-dev \
+		       python3-dev \
+		       python3-pip \
+		       python3.8-dev 
+
+# update pip
+RUN pip3 install --upgrade pip
+
+# install MACS3
+RUN pip3 install MACS3==3.0.0a6 
+
+# install cellphonedb
+RUN pip3 install cellphonedb==2.1.7
+
+# install scanpy
+RUN pip3 install scanpy==1.8.1
+
+# install scvelo
+RUN pip3 install scvelo==0.2.4
+
+# install scrublet
+RUN pip3 install scrublet==0.2.3
 
 # install cran packages
 ADD install_cran.R /tmp/
