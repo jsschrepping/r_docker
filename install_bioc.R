@@ -17,7 +17,7 @@ devtools::install_version("edgeR", version="3.34.1", repos=c("https://bioconduct
 devtools::install_version("sva", version="3.40.0", repos=c("https://bioconductor.org/packages/3.13/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("IHW", version="1.20.0", repos=c("https://bioconductor.org/packages/3.13/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("apeglm", version="1.14.0", repos=c("https://bioconductor.org/packages/3.13/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-devtools::install_version("SingleCellExperiment", version="1.14.1", repos=c("https://bioconductor.org/packages/3.12/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("SingleCellExperiment", version="1.14.1", repos=c("https://bioconductor.org/packages/3.13/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("SummarizedExperiment", version="1.22.0", repos=c("https://bioconductor.org/packages/3.13/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("monocle", version="2.20.0", repos=c("https://bioconductor.org/packages/3.13/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("TSCAN", version="1.30.0", repos=c("https://bioconductor.org/packages/3.13/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
