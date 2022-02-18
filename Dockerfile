@@ -1,6 +1,6 @@
 FROM bioconductor/bioconductor_docker:RELEASE_3_14
 
-MAINTAINER Jonas Schulte-Schrepping
+MAINTAINER Jonas Schulte-Schrepping (jsschrepping)
 
 # This will make apt-get install without question
 ENV DEBIAN_FRONTEND noninteractive
@@ -28,7 +28,7 @@ RUN pip3 install scanpy==1.8.2
 # install scvelo
 RUN pip3 install scvelo==0.2.4
 
-# install scvelo
+# install cellrank
 RUN pip3 install cellrank==1.5.1
 
 # install scrublet
@@ -49,3 +49,7 @@ RUN R -f /tmp/install_biodb.R
 # install github packages
 ADD install_github.R /tmp/
 RUN R -f /tmp/install_github.R
+
+# install future packages
+ADD install_future.R /tmp/
+RUN R -f /tmp/install_future.R
