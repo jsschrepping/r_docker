@@ -1,4 +1,4 @@
-FROM bioconductor/bioconductor_docker:RELEASE_3_13
+FROM bioconductor/bioconductor_docker:RELEASE_3_14
 
 MAINTAINER Jonas Schulte-Schrepping
 
@@ -7,11 +7,11 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
     apt-get install -y apt-utils \
-    	    	       python3.8 \
+    	    	       python3.9 \
     		       python-dev \
 		       python3-dev \
 		       python3-pip \
-		       python3.8-dev 
+		       python3.9-dev 
 
 # update pip
 RUN pip3 install --upgrade pip
@@ -20,13 +20,16 @@ RUN pip3 install --upgrade pip
 RUN pip3 install MACS3==3.0.0a6 
 
 # install cellphonedb
-RUN pip3 install cellphonedb==2.1.7
+RUN pip3 install cellphonedb==3.0.0
 
 # install scanpy
-RUN pip3 install scanpy==1.8.1
+RUN pip3 install scanpy==1.8.2
 
 # install scvelo
 RUN pip3 install scvelo==0.2.4
+
+# install scvelo
+RUN pip3 install cellrank==1.5.1
 
 # install scrublet
 RUN pip3 install scrublet==0.2.3
