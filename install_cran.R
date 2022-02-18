@@ -43,7 +43,6 @@ devtools::install_version("DirichletReg", version = "0.7-1", repos = c("http://c
 
 # Bioinformatics packages
 devtools::install_version("Seurat", version = "4.1.0", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
-devtools::install_version("Signac", version = "1.5.0", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("SoupX", version = "1.5.2", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("WGCNA", version = "1.70-3", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("igraph", version = "1.2.11", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
