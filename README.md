@@ -1,4 +1,4 @@
-R studio docker container for scEpigenomics analyses in R based on bioconductor/bioconductor_docker:RELEASE_3_14.
+R studio docker container for scRNA-seq analyses build on bioconductor_docker:RELEASE_3_14.
 
 Installed packages include:
 
