@@ -38,6 +38,8 @@ devtools::install_version("EnhancedVolcano", version="1.12.0", repos=c("https://
 # Single-cell RNA-seq analysis packages
 devtools::install_version("SingleCellExperiment", version="1.16.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("SummarizedExperiment", version="1.24.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("scran", version="1.22.1", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("scater", version="1.22.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("LoomExperiment", version="1.12.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("monocle", version="2.22.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("AUCell", version="1.16.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)

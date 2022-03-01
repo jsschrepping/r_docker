@@ -8,6 +8,7 @@ library(pkgbuild)
 install.packages("ggpubr")
 
 # Basic packages
+devtools::install_version("rmarkdown", version = "2.11", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("tidyverse", version = "1.3.1", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("reticulate", version = "1.24", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("reshape2", version = "1.4.4", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
