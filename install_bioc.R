@@ -16,7 +16,7 @@ devtools::install_version("DESeq2", version="1.34.0", repos=c("https://bioconduc
 devtools::install_version("vsn", version="3.62.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("IHW", version="1.22.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("apeglm", version="1.16.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-devtools::install_version("limma", version="3.50.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
+devtools::install_version("limma", version="3.50.1", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("edgeR", version="3.36.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("sva", version="3.42.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 
