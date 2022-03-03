@@ -26,6 +26,7 @@ devtools::install_version("RColorBrewer", version = "1.1-2", repos = c("http://c
 devtools::install_version("pheatmap", version = "1.0.12", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("ggrepel", version = "0.9.1", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("ggthemes", version = "4.2.4", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
+devtools::install_version("ggnewscale", version = "0.4.6", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force=TRUE)
 devtools::install_version("gplots", version = "3.1.1", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("ggbeeswarm", version = "0.6.0", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("ggsignif", version = "0.6.3", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
