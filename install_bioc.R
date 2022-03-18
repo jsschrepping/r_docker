@@ -48,7 +48,4 @@ devtools::install_version("MAST", version="1.20.0", repos=c("https://bioconducto
 devtools::install_version("slingshot", version="2.2.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("multtest", version="2.50.0", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
 devtools::install_version("muscat", version="1.8.1", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
-
-
-
-
+devtools::install_version("doRNG", version="1.8.2", repos=c("https://bioconductor.org/packages/3.14/bioc","http://cran.us.r-project.org"),upgrade = "never", force = TRUE)
