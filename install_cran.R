@@ -6,6 +6,9 @@ library(pkgbuild)
 
 
 # Basic packages
+devtools::install_version("commonmark", version = "1.9.0", repos = c("https://cran.uni-muenster.de/", "https://bioconductor.org/packages/3.17/bioc"), upgrade = "never", force = TRUE)
+devtools::install_version("xfun", version = "0.39", repos = c("https://cran.uni-muenster.de/", "https://bioconductor.org/packages/3.17/bioc"), upgrade = "never", force = TRUE)
+devtools::install_version("markdown", version = "1.7", repos = c("https://cran.uni-muenster.de/", "https://bioconductor.org/packages/3.17/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("rmarkdown", version = "2.22", repos = c("https://cran.uni-muenster.de/", "https://bioconductor.org/packages/3.17/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("tidyverse", version = "2.0.0", repos = c("https://cran.uni-muenster.de/", "https://bioconductor.org/packages/3.17/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("reticulate", version = "1.30", repos = c("https://cran.uni-muenster.de/", "https://bioconductor.org/packages/3.17/bioc"), upgrade = "never", force = TRUE)
