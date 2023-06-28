@@ -1,6 +1,8 @@
 library(devtools)
 library(pkgbuild)
 
+## nichenetr
+devtools::install_github("saeyslab/nichenetr")
 ## scPred
 devtools::install_github("powellgenomicslab/scPred")
 ## sceasy
