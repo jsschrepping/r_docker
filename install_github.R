@@ -2,8 +2,6 @@ library(devtools)
 library(pkgbuild)
 
 # Github packages
-## patchwork
-devtools::install_github("thomasp85/patchwork", upgrade="never")
 ##seurat-wrappers
 devtools::install_github("satijalab/seurat-wrappers", upgrade="never")
 ##doubletfinder

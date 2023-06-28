@@ -1,4 +1,4 @@
-R studio docker container for scRNA-seq analyses build on bioconductor_docker:RELEASE_3_16 and R v4.2.2.
+R studio docker container for scRNA-seq analyses build on bioconductor_docker:RELEASE_3_17 and R v4.3.0.
 
 Installed R packages include:
 
@@ -30,6 +30,13 @@ Installed R packages include:
 + ArchR
 + Gviz
 + ChromVar
+
++ CytoExploreR
++ CytoML
++ FlowWorkspace
++ ggcyto
++ openCyto
++ cydar
 
 + Human Annotation databases (org.Hs.eg.db, TxDb.Hsapiens.UCSC.hg38.knownGene, EnsDb.Hsapiens.v86)
 

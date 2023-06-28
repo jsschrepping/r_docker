@@ -1,4 +1,4 @@
-FROM bioconductor/bioconductor_docker:RELEASE_3_16
+FROM bioconductor/bioconductor_docker:RELEASE_3_17
 
 MAINTAINER Jonas Schulte-Schrepping (jsschrepping)
 
@@ -26,20 +26,24 @@ RUN /root/miniconda3/bin/conda config --add channels conda-forge
 RUN pip3 install --upgrade pip
 
 # install numpy and pandas
-RUN pip3 install numpy==1.23.4
-RUN pip3 install pandas==1.5.1
+RUN pip3 install numpy==1.25.0
+RUN pip3 install pandas==2.0.2
 
 # install MACS3
-RUN pip3 install MACS3==3.0.0b1 
+RUN pip3 install MACS3==3.0.0b2 
 
 # install scanpy
-RUN pip3 install scanpy==1.9.1
+RUN pip3 install scanpy==1.9.3
 
 # install scvelo
 RUN pip3 install scvelo==0.2.5
+RUN pip3 install velovae==0.1.2
 
 # install cellrank
 RUN pip3 install cellrank==1.5.1
+
+#install scFates
+RUN pip3 install scFates==1.0.2
 
 # install scrublet
 RUN pip3 install scrublet==0.2.3
@@ -74,6 +78,10 @@ RUN R -f /installation/install_github2.R
 # install scEpigenomics packages
 ADD install_scEpi.R /installation/
 RUN R -f /installation/install_scEpi.R
+
+# install cytometry packages
+ADD install_cyto.R /installation/
+RUN R -f /installation/install_cyto.R
 
 # install future packages
 ADD install_future.R /installation/
