@@ -55,7 +55,7 @@ devtools::install_version("MAST", version="1.26.0", repos=c("https://bioconducto
 devtools::install_version("slingshot", version="2.8.0", repos=c("https://bioconductor.org/packages/3.17/bioc","https://cran.uni-muenster.de/"),upgrade = "never", force = TRUE)
 devtools::install_version("multtest", version="2.56.0", repos=c("https://bioconductor.org/packages/3.17/bioc","https://cran.uni-muenster.de/"),upgrade = "never", force = TRUE)
 devtools::install_version("muscat", version="1.14.0", repos=c("https://bioconductor.org/packages/3.17/bioc","https://cran.uni-muenster.de/"),upgrade = "never", force = TRUE)
-devtools::install_version("dittoSeq", version="1.20.0", repos=c("https://bioconductor.org/packages/3.17/bioc","https://cran.uni-muenster.de/"),upgrade = "never", force = TRUE)
+devtools::install_version("dittoSeq", version="1.12.0", repos=c("https://bioconductor.org/packages/3.17/bioc","https://cran.uni-muenster.de/"),upgrade = "never", force = TRUE)
 devtools::install_version("mumosa", version="1.8.0", repos=c("https://bioconductor.org/packages/3.17/bioc","https://cran.uni-muenster.de/"),upgrade = "never", force = TRUE)
 devtools::install_version("screenCounter", version="1.0.0", repos=c("https://bioconductor.org/packages/3.17/bioc","https://cran.uni-muenster.de/"),upgrade = "never", force = TRUE)
 devtools::install_version("TrajectoryUtils", version="1.8.0", repos=c("https://bioconductor.org/packages/3.17/bioc","https://cran.uni-muenster.de/"),upgrade = "never", force = TRUE)
