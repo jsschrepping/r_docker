@@ -1,4 +1,4 @@
-R studio docker container for scRNA-seq analyses build on bioconductor_docker:RELEASE_3_17 and R v4.3.0.
+Slim version of R studio docker container for scRNA-seq analyses build on bioconductor_docker:RELEASE_3_17 and R v4.3.0.
 
 Installed R packages include:
 
@@ -24,33 +24,9 @@ Installed R packages include:
 + Ucell
 + DittoSeq
 
-+ DiffBind
-+ ChipSeeker
-+ Signac
-+ ArchR
-+ Gviz
-+ ChromVar
-
-+ CytoExploreR
-+ CytoML
-+ FlowWorkspace
-+ ggcyto
-+ openCyto
-+ cydar
-
 + Human Annotation databases (org.Hs.eg.db, TxDb.Hsapiens.UCSC.hg38.knownGene, EnsDb.Hsapiens.v86)
 
 and many more...
-
-In addition, following python packages are installed to be used via reticulate:
-+ MACS3
-+ Cytosig
-+ scanpy
-+ scvelo
-+ cellrank
-+ scrublet
-
-(CellphoneDB had to be removed due to incompatibilities with python versions.)
 
 
 Installed versions of packages are documented in install_log.txt

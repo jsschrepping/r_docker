@@ -8,8 +8,9 @@ devtools::install_github("satijalab/seurat-wrappers", upgrade="never")
 devtools::install_github("chris-mcginnis-ucsf/DoubletFinder", upgrade="never")
 ## seurat extra
 devtools::install_github("mojaveazure/seurat-disk", upgrade="never")
-## monocle3
-devtools::install_github("cole-trapnell-lab/leidenbase", upgrade="never")
-devtools::install_github("cole-trapnell-lab/monocle3", upgrade="never")
-## LISI
-devtools::install_github("immunogenomics/lisi")
+## sceasy
+devtools::install_github("cellgeni/sceasy")
+## fastSave
+devtools::install_github("barkasn/fastSave")
+## scCustomize
+devtools::install_github(repo = "samuel-marsh/scCustomize")
