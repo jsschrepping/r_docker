@@ -42,12 +42,3 @@ devtools::install_version("multipanelfigure", version = "2.1.2", repos = c("http
 devtools::install_version("corrplot", version = "0.92", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("dunn.test", version = "1.3.5", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
 devtools::install_version("DirichletReg", version = "0.7-1", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
-
-# Bioinformatics packages
-devtools::install_version("Seurat", version = "4.1.0", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
-devtools::install_version("SoupX", version = "1.5.2", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
-devtools::install_version("WGCNA", version = "1.70-3", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
-devtools::install_version("igraph", version = "1.2.11", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
-devtools::install_version("rliger", version = "1.0.0", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
-devtools::install_version("harmony", version = "0.1.0", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
-devtools::install_version("symphony", version = "0.1.0", repos = c("http://cran.us.r-project.org", "https://bioconductor.org/packages/3.14/bioc"), upgrade = "never", force = TRUE)
